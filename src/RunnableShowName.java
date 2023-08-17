@@ -11,7 +11,7 @@ public class RunnableShowName implements Runnable{
         thread2.start();
     }
 
-    public void run(){
+    public void run(){ 
         int pause;
          
         for(int i = 0; i < 10; i++){

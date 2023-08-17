@@ -5,7 +5,7 @@ public class RunnableHelloCount implements Runnable {
     private Thread thread2;
 
     public static void main(String[] args) {
-        RunnableHelloCount threadDemo = new RunnableHelloCount();
+        new RunnableHelloCount();
     }
 
     public RunnableHelloCount() {
